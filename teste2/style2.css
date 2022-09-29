@@ -1,0 +1,192 @@
+body {
+    font-size: .7rem;
+}
+
+.logo {
+    width: 28%;
+}
+
+.btn-con {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(246, 246, 246);
+    border: solid 2px rgb(72, 124, 255);
+    color:  rgb(72, 124, 255);
+    padding: 1rem .8rem;
+    transition: background-color 500ms;
+}
+
+.btn-con:hover, .btn-con:active {
+    background-color: rgb(72, 124, 255);
+    border: solid 2px rgb(246, 246, 246);
+    color: rgb(246, 246, 246);
+    border-radius: 10px;
+}
+
+select {
+    
+    font-size: 1.6rem;
+    margin-left: .1rem;
+}
+
+.btn-switch {
+    
+    border-radius: 8px;
+    font-size: 1.6rem;
+    padding: .6rem 1rem;
+    background-color: black;
+    color: white;
+    margin-bottom: 1.8rem;
+}
+
+.btn-switch:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+
+
+.btn-transaction {
+    border: solid 2px rgb(2, 222, 2);
+    background-image: rgb(255, 255, 255);
+    color:rgb(2, 222, 2);
+    padding: 1rem 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    transition: linear-gradient 500ms;
+    margin-top: 1rem;
+    
+    
+}
+
+.btn-transaction:hover, .btn-transaction:active {
+    background-image: linear-gradient(to right, rgb(47, 223, 31) ,rgb(10, 203, 7));
+    color:rgb(255, 255, 255);
+    
+   
+    border:solid 2px rgb(246, 246, 246);
+}
+
+select {
+    padding: .6rem ;
+    width: 60%;
+    
+}
+
+.img-mobile{
+    margin-right: 2rem;
+}
+
+span {
+    display: block;
+    font-size: 1.4rem;
+    padding: .4rem;
+    margin: .2rem;
+}
+
+.card-span {
+    background-color: rgb(93, 93, 93);
+    color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: .8rem 0;
+    width: 85%;
+    text-align: start;
+    font-family: 'Abyssinica SIL', serif;
+    
+    
+}
+
+input {
+    font-size: 1.4rem;
+    padding: .6rem;
+    width: 100%;
+}
+
+.lbl {
+    font-size: 1.4rem;
+    font-weight: bold;
+    display: block;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+
+.wallet-img, .metamask-img {
+    width:10%;
+}
+
+label, input {
+    margin: 0;
+    
+}
+
+.btn-nft {
+    border-radius: 8px;
+    font-size: 1.6rem;
+    padding: .6rem 1rem;
+    background-color: black;
+    color: white;
+    margin-bottom: 1.8rem;
+
+}
+
+.btn-nft:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+.nft {
+    width: 25%;
+    margin: 0.3rem;
+}
+
+.hide-stuff {
+    display: none;
+}
+
+.btn-voltar {
+    border: solid 2px rgb(222, 213, 31);
+    background-image: rgb(255, 255, 255);
+    color:rgb(222, 213, 31);
+    padding: 1rem 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    transition: linear-gradient 500ms;
+    margin-top: 1rem;
+
+}
+
+.btn-voltar:hover, .btn-voltar:active {
+    background-image: linear-gradient(to right, rgb(222, 213, 31) ,rgb(208, 196, 23));
+    color: rgb(255, 255, 255);
+    
+   
+    border:solid 2px rgb(246, 246, 246);
+}
+
+.btn-trans {
+ margin-top: 2rem;
+}
+
+.btn-history {
+    border: solid 2px rgb(53, 53, 53);
+    background-image: rgb(255, 255, 255);
+    color:rgb(53, 53, 53);
+    padding: 1rem 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    transition: linear-gradient 500ms;
+    margin-top: 1rem;
+}
+
+.btn-history:hover {
+    background-image: linear-gradient(to right, rgb(68, 68, 68) ,rgb(106, 106, 106));
+    color:rgb(255, 255, 255);
+}
